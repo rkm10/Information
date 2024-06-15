@@ -26,3 +26,26 @@ To install tailwind CSS
     @tailwind utilities;
 Add these in index.css
 -------------------------------------------------------------------------------------------------
+to install Redux-toolkit:
+1) npm install @reduxjs/toolkit
+2) npm install react-redux.
+-------------------------------------------------------------------------------------------------
+axios library.
+
+1) npm i axios
+
+----------------------------------------------------------------------
+react bootstrap
+1).use this cmmd in promt.
+	npm install react-bootstrap bootstrap
+
+2). write this in main jsx file.
+ 	import 'bootstrap/dist/css/bootstrap.css'
+
+----------------------------------------------------------------------
+
+Material UI
+
+1).To install use this cmmd in promt.
+	npm install @mui/material @emotion/react @emotion/styled
+

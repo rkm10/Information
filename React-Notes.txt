@@ -1,0 +1,26 @@
+React-toolkit..
+
+   ---createSlice for update logics
+
+      const userSlice = createSlice({
+      name: "user",
+      initialState:data,
+      reducers: {
+      updateMobile: (state, action) => {
+      state.mobile = action.payload;
+      },
+
+
+      const data = {
+      balance: 0,
+      fullName:"",
+      mobile: null,
+      };
+
+      
+      • Configure slice using configureStore method
+      const store = configureStore({
+      reducer:{
+      user: userSlice.reducer,
+      },
+-------------------------------------------------------------------------------------------------
