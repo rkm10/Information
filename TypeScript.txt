@@ -25,6 +25,9 @@
 <---> To auto-convert everytime when saved ts file.
 ---> tsc -w // it will watch, as soon file is saved it will convert js 
 
+<---> To avoid convertion of ts file outside src
+---> go to tsconfig and add this line at the bottom.
+    |> "include": ["src"] . // ignore's all the ts file outside the rootpath and converts only file inside rootpath. 
 ----------------------------------||>TS <||----------------------------------
 
 !! <---> if ExecutionPolicy is resitricted by defult <--> 
@@ -35,7 +38,6 @@
     -|> Get-ExecutionPolicy //// to verify its Unrestricted or resitricted
 
 ----------------------------------||>TS <||----------------------------------
-
 
 
 
