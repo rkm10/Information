@@ -1,0 +1,11 @@
+To install typescript globally.
+
+npm install -g typescript
+
+---------------------------------------------------------
+
+To convert typescript to Javascript 
+ 
+tsc filename.ts {to} filename.js 
+
+---------------------------------------------------------
