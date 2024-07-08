@@ -1,18 +1,18 @@
 <-->To install typescript globally.
 ->npm install -g typescript
 
---------------------------------typescript------------------------------------------
+----------------------------------||>TS <||----------------------------------
 
 <-->To convert typescript to Javascript 
 -->tsc filename.ts {to} filename.js 
 
---------------------------------typescript------------------------------------------
+----------------------------------||>TS <||----------------------------------
 
 <-->To enble/initialize typescript configurations
 -->tsc -- init
    -|> it will create tsconfig.json file.
 
---------------------------------typescript------------------------------------------
+----------------------------------||>TS <||----------------------------------
 
 <--> To change root directory.
 --> go to tsconfig.json 
@@ -22,7 +22,7 @@
 <---> Now to Convert 
 ---> just type tsc  //it will search for rootpath and source path does the work. 
 
---------------------------------typescript------------------------------------------
+----------------------------------||>TS <||----------------------------------
 
 !! <---> if ExecutionPolicy is resitricted by defult <--> 
 --> open cmd as admin 
@@ -31,6 +31,6 @@
     
     -|> type Get-ExecutionPolicy //// to verify its Unrestricted or resitricted
 
---------------------------------typescript------------------------------------------
+----------------------------------||>TS <||----------------------------------
 
 
