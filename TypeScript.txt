@@ -20,17 +20,22 @@
     -|> search for outDir ||> change to source Path where ts is stored .
 
 <---> Now to Convert 
----> just type tsc  //it will search for rootpath and source path does the work. 
+--->  tsc  //it will search for rootpath and source path does the work. 
+
+<---> To auto-convert everytime when saved ts file.
+---> tsc -w // it will watch, as soon file is saved it will convert js 
 
 ----------------------------------||>TS <||----------------------------------
 
 !! <---> if ExecutionPolicy is resitricted by defult <--> 
 --> open cmd as admin 
-    -|> type Set-ExecutionPolicy RemoteSigned 
-    -|> type Set-ExecutionPolicy Unrestricted ||> type Y
+    -|> Set-ExecutionPolicy RemoteSigned 
+    -|> Set-ExecutionPolicy Unrestricted ||> Select Y
     
-    -|> type Get-ExecutionPolicy //// to verify its Unrestricted or resitricted
+    -|> Get-ExecutionPolicy //// to verify its Unrestricted or resitricted
 
 ----------------------------------||>TS <||----------------------------------
+
+
 
 
