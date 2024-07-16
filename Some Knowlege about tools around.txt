@@ -2,9 +2,8 @@
 
 --> React ->>  single-page applications (https://react.dev/) <<==>> Most commonly used FrontEnd library. 
 --> MIcrosoft ASP.NET ->> Web Frameworks (https://dotnet.microsoft.com/en-us/apps/aspnet) <<==>> ASP.NET for backend and C# & VB.NET for front-end development.
---> React ->> JavaScript Frameworks <<==>>
---> D3 ->> JavaScript graphics (https://d3js.org/what-is-d3) <<==>>
---> Lit ->> JavaScript Library (https://lit.dev/) <<==>>
+--> D3 ->> JavaScript graphics (https://d3js.org/what-is-d3) <<==>> data visualization (maps etc).
+--> Lit ->> JavaScript Library (https://lit.dev/) <<==>>  building fast, lightweight web components that work in any framework, or with no framework at all.
 --> Ruby on Rails ->> Web Frameworks (https://rubyonrails.org/) <<==>>  database-backed web applications.
 --> Ruby ->> Programming language (https://www.ruby-lang.org/en/) <<==> backend framework for web applications.
 --> Moment.js ->> JavaScript Library (https://momentjs.com/) <<==>> For Time Zones.
