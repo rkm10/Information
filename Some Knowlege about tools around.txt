@@ -1,11 +1,12 @@
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 
+--> React ->>  single-page applications (https://react.dev/) <<==>>
 --> MIcrosoft ASP.NET ->> Web Frameworks <<==>>
 --> React ->> JavaScript Frameworks <<==>>
 --> D3 ->> JavaScript graphics (https://d3js.org/what-is-d3) <<==>>
 --> Lit ->> JavaScript Library (https://lit.dev/) <<==>>
---> Ruby on Rails ->> Web Frameworks <<==>>
---> Ruby ->> Programming language (https://www.ruby-lang.org/en/) <<==>
+--> Ruby on Rails ->> Web Frameworks (https://rubyonrails.org/) <<==>>  database-backed web applications
+--> Ruby ->> Programming language (https://www.ruby-lang.org/en/) <<==> backend framework for web applications.
 --> Moment.js ->> JavaScript Library (https://momentjs.com/) <<==>> For Time Zones, 
 --> Modernizr ->> JavaScript Library (https://modernizr.com/) <<==>> For Better User performance
 
