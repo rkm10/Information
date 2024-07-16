@@ -6,6 +6,8 @@
 --> Lit ->> JavaScript Library (https://lit.dev/) 
 --> Ruby on Rails ->> Web Frameworks
 --> Ruby ->> Programming language
+--> Moment.js ->> JavaScript Library ()
+--> Modernizr ->> JavaScript Library ()
 
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 
