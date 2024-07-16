@@ -1,11 +1,15 @@
 ------------------------->>>>>>>==<<<<<<<-------------------------------
-https://www.theagencyre.com/
 
 --> MIcrosoft ASP.NET ->> Web Frameworks
 --> React ->> JavaScript Frameworks
 --> D3 ->> JavaScript graphics (https://d3js.org/what-is-d3)
+--> Lit ->> JavaScript Library (https://lit.dev/) 
+--> Ruby on Rails ->> Web Frameworks
+--> Ruby ->> Programming language
 
 ------------------------->>>>>>>==<<<<<<<-------------------------------
+
+
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 ------------------------->>>>>>>==<<<<<<<-------------------------------
