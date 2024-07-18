@@ -13,3 +13,8 @@
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 4-> clerk uses
 https://clerk.com/docs/references/nextjs/custom-signup-signin-pages
+
+------------------------->>>>>>>==<<<<<<<-------------------------------
+
+5-> tailwind components
+www.hyperui.dev
