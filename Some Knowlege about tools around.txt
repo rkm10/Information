@@ -22,6 +22,9 @@ imp -> For Better Icons
         (https://lucide.dev/)
         use lucide icons can be customized
 ------------------------->>>>>>>==<<<<<<<-------------------------------
+--->> For login Auth 
+https://clerk.com/
+
 -->>google autocomplete places 
 ========>> https://www.npmjs.com/package/react-google-places-autocomplete
 
@@ -29,6 +32,9 @@ imp -> For Better Icons
 <GooglePlacesAutocomplete
       apiKey="****"
     />
+
+-->>you can get apikey from google cloud console
+     -->> https://console.cloud.google.com/
 
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 ------------------------->>>>>>>==<<<<<<<-------------------------------
