@@ -1,0 +1,22 @@
+------------------------->>>>>>>==<<<<<<<-------------------------------
+Check the current limit:
+
+sh
+cmd: cat /proc/sys/fs/inotify/max_user_watches
+Increase the limit:
+You can temporarily increase the limit by running the following command in your terminal:
+------------------------->>>>>>>==<<<<<<<-------------------------------
+sh
+cmd: sudo sysctl fs.inotify.max_user_watches=524288
+To make this change permanent, add the following line to your /etc/sysctl.conf file:
+------------------------->>>>>>>==<<<<<<<-------------------------------
+sh
+cmd: fs.inotify.max_user_watches=524288
+Then apply the changes with:
+------------------------->>>>>>>==<<<<<<<-------------------------------
+sh
+cmd: sudo sysctl -p
+Verify the new limit:
+------------------------->>>>>>>==<<<<<<<-------------------------------
+sh
+cmd: cat /proc/sys/fs/inotify/max_user_watches
