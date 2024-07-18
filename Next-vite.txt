@@ -11,3 +11,5 @@
         every installation of requirement a new component will be create in component folder.
         logoipsum
 ------------------------->>>>>>>==<<<<<<<-------------------------------
+4-> clerk uses
+https://clerk.com/docs/references/nextjs/custom-signup-signin-pages
