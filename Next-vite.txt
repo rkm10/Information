@@ -1,5 +1,12 @@
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 1-> To create new project 
         npx create-next-app@latest
+------------------------->>>>>>>==<<<<<<<-------------------------------
 
+2-> Using shadcn ui (tailwind css) library
+        npx shadcn-ui@latest init
+------------------------->>>>>>>==<<<<<<<-------------------------------
+3-> To use shadcn You need to install each components from website 
+        (https://ui.shadcn.com/docs/installation/next)
+        every installation of requirement a new component will be create in component folder.
 ------------------------->>>>>>>==<<<<<<<-------------------------------
