@@ -22,6 +22,14 @@ imp -> For Better Icons
         (https://lucide.dev/)
         use lucide icons can be customized
 ------------------------->>>>>>>==<<<<<<<-------------------------------
+-->>google autocomplete places 
+========>> https://www.npmjs.com/package/react-google-places-autocomplete
+
+// --- replace apikey ---//
+<GooglePlacesAutocomplete
+      apiKey="****"
+    />
+
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 ------------------------->>>>>>>==<<<<<<<-------------------------------
