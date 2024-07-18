@@ -10,8 +10,17 @@
 --> Modernizr ->> JavaScript Library (https://modernizr.com/) <<==>> For Better User performance.
 
 ------------------------->>>>>>>==<<<<<<<-------------------------------
+imp -> To use shadcn You need to install each components from website 
+        (https://ui.shadcn.com/docs/installation/next)
+        every installation of requirement a new component will be create in component folder.
+        
+imp -> For free use of logo 
+        (https://logoipsum.com/)
+        use logoipsum
 
-
+imp -> For Better Icons 
+        (https://lucide.dev/)
+        use lucide icons can be customized
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 ------------------------->>>>>>>==<<<<<<<-------------------------------
