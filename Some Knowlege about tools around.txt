@@ -1,6 +1,6 @@
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 
---> React ->>  single-page applications (https://react.dev/) <<==>> Most commonly used FrontEnd library. 
+--> React ->>  single-page applications (https://react.dev/) <<==>> Most commonly used FrontEnd library.        
 --> MIcrosoft ASP.NET ->> Web Frameworks (https://dotnet.microsoft.com/en-us/apps/aspnet) <<==>> ASP.NET for backend and C# & VB.NET for front-end development.
 --> D3 ->> JavaScript graphics (https://d3js.org/what-is-d3) <<==>> data visualization (maps etc).
 --> Lit ->> JavaScript Library (https://lit.dev/) <<==>>  building fast, lightweight web components that work in any framework, or with no framework at all.
