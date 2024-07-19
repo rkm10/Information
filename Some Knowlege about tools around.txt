@@ -46,9 +46,13 @@ https://clerk.com/
         ==>> you can directly use the components copy paste and modify
             -->> https://www.hyperui.dev/
 
---->> Formik forms
+------------------------->>>>>>>==<<<<<<<-------------------------------
+
+very.useful--->> Formik forms
+
+                formik handles on channges without declearing, simple and effective
+
         ====>> https://formik.org/docs/overview
              ~~> npm install formik --save
 
-------------------------->>>>>>>==<<<<<<<-------------------------------
 ------------------------->>>>>>>==<<<<<<<-------------------------------
