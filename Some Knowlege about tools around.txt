@@ -28,6 +28,10 @@ https://clerk.com/
 -->>google autocomplete places 
 ========>> https://www.npmjs.com/package/react-google-places-autocomplete
 
+                ==>>>>>>Documentation<<<<<<==
+                        ~~> https://tintef.github.io/react-google-places-autocomplete/
+
+
 // --- replace apikey ---//
 <GooglePlacesAutocomplete
       apiKey="****"
