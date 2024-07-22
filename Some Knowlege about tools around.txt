@@ -44,6 +44,14 @@ https://clerk.com/
 
 ~~> ~~> ~~> Google map integration for react
         ==> https://www.npmjs.com/package/@react-google-maps/api
+        (
+        //use this where u import for better performance        
+        const GoogleMapsSection = dynamic(() => import('./GoogleMapsSection'), { ssr: false })
+                
+        //
+
+
+        )
 
 
 ------------------------->>>>>>>==<<<<<<<-------------------------------
@@ -62,3 +70,4 @@ very.useful--->> Formik forms
              ~~> npm install formik --save
 
 ------------------------->>>>>>>==<<<<<<<-------------------------------
+
