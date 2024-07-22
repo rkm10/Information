@@ -40,6 +40,12 @@ https://clerk.com/
 -->>you can get apikey from google cloud console
      -->> https://console.cloud.google.com/
 
+
+
+~~> ~~> ~~> Google map integration for react
+        ==> https://www.npmjs.com/package/@react-google-maps/api
+
+
 ------------------------->>>>>>>==<<<<<<<-------------------------------
 
 -->> hyper ui
