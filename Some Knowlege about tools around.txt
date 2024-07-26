@@ -55,6 +55,12 @@ https://clerk.com/
 
 
 
+~~> ~~> ~~> ~~> ~~> google maps js api loader  --------------------------->> New method 
+        ==> https://www.npmjs.com/package/@googlemaps/js-api-loader
+
+
+
+
         /////////////////////////-------------------------for production to have access to whole website ---------------------------////////////////////////////
 
         'use client'
