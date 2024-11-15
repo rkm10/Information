@@ -1,0 +1,43 @@
+--------------->>**<<---Basic services required to **Build a full End-to-End Web App** in aws-->>**<<------------
+        Free for first 12 months of account created .
+        always check for pricing.
+
+1--> Github 
+  |__.> (for better and faster code uploads.)
+  |__.>  source controling system.
+
+2---> AWS IAM (identity & Access Management) 
+  |__.> 
+
+3---> AWS Amplify
+  |__.> Full stack (everything)
+
+4---> AWS Cognito
+  |__.> 
+
+5---> AWS Lambda 
+  |__.> 
+
+6---> AWS API Gateway 
+  |__.> HTTPS, REST, WebSocket API's
+
+7---> AWS DynamoDB 
+  |__.> 
+
+
+------------------------->>>>>>>==<<<<<<<-------------------------------
+---x-->>     Amplify App will set everything below <<--x---
+
+
+Front-End--|> S3 
+Back-End --|> Lambda
+Authentication --|> Cognito
+Database --|> DynamoDB
+Storage --|> S3
+Connections --|> Api Gateway
+Other services -|  
+                |--|> Networking
+                |--|> Security
+                |--|> Queues
+                |--|> Notifications
+

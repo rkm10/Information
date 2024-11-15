@@ -1,0 +1,28 @@
+1<-> create a project folder.
+-----------||^|^||-----------
+2<->client as front-end 
+3<->server as back-end
+-----------||^|^||-----------
+4<->inside server install these 
+npm i express mongoose body-parser dotenv cors --save-dev nodemon
+-----------||^|^||-----------
+
+create index.js file
+import express from 'express';
+import mongoose from 'mongoose';
+import bodyParser from 'body-parser';
+import dotenv from 'dotenv';
+import cors from 'cors';
+
+const app = express();
+app.use(bodyParser.json());
+app.use(cors());
+dotenv.config();
+
+---------------
+create .env file
+PORT = 8000
+MONGOURL="" along with database name.
+
+---------------
+
