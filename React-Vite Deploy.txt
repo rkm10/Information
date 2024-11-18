@@ -25,6 +25,10 @@ To install tailwind CSS
     @tailwind components;
     @tailwind utilities;
 Add these in index.css
+
+to format tailwindclass name properly
+5) install 
+  npm install -D prettier prettier-plugin-tailwindcss
 -------------------------------------------------------------------------------------------------
 to install Redux-toolkit:
 1) npm install @reduxjs/toolkit
