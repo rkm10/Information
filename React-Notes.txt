@@ -24,3 +24,20 @@ React-toolkit..
       user: userSlice.reducer,
       },
 -------------------------------------------------------------------------------------------------
+
+
+
+interviews
+
+#sort the array and remove duplicates
+
+let s = [1, 3, 4, 3, 20, 1, 1, 0, 0];
+// First, remove duplicates using the Set constructor and spread operator,
+// then sort the array in ascending order using the sort() function. use reverse for descending
+const result = [...new Set(s)].sort((a, b) => a - b);
+console.log(result);
+
+
+#return the length of the last word in the string
+
+input
