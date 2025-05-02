@@ -53,3 +53,47 @@ Material UI
 1).To install use this cmmd in promt.
 	npm install @mui/material @emotion/react @emotion/styled
 
+
+
+
+---------------##new method to install shadcn to jsx##----------------
+
+1-> npm create vite@latest -- select javascript
+2-> npm install tailwindcss @tailwindcss/vite --- installing tailwind
+3-> @import "tailwindcss"; ---- replace this in index.css
+4-> create jsconfig.json file in root folder, and add the below code
+   <--> 
+   {
+    "files": [],
+    "references": [
+      
+    ],
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    }
+  }
+  <-->
+5-> npm install -D @types/node  ---- install the nodes
+6-> replace the code of vite.config.js with below code
+   <-->
+    import path from "path"
+    import tailwindcss from "@tailwindcss/vite"
+    import react from "@vitejs/plugin-react"
+    import { defineConfig } from "vite"
+
+    // https://vite.dev/config/
+    export default defineConfig({
+      plugins: [react(), tailwindcss()],
+      resolve: {
+        alias: {
+          "@": path.resolve(__dirname, "./src"),
+        },
+      },
+    })
+   <-->
+7-> npx shadcn@latest init ---- this will install shadcn to your project.
+8-> dont forgot to install the component which you using . if you dont it will through an error, even chatgpt wont give you solution.
+
