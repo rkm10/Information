@@ -1,0 +1,87 @@
+version control:
+
+Git hub:open source version control tool.
+
+-----------------------------Generate SSH key in windows laptop------------------------------------------
+
+Generating ssh key
+1)open git bash anywhere in system.
+2)ssh-keygen -t ed25519 -C "your_email@example.com"
+  note:please just give enter for everything till u 
+  get the key.
+
+3)check ssh agent
+   eval "$(ssh-agent -s)"
+4)add identity
+   ssh-add ~/.ssh/id_ed25519
+5)copy ssh key 
+    cat < ~/.ssh/id_ed25519.pub
+
+-----------------------------Generate SSH key in Linux------------------------------------------
+1) ssh-keygen -t rsa
+----Yes to all----
+2) cat /home/(public key file path)
+Eg:- Your public key has been saved in /home/frappe/.ssh/id_rsa.pub 
+
+-----------------------------Generate SSH key in Mac OS------------------------------------------
+1) ssh-keygen -b 4096 -t rsa
+----Yes to all----
+2) pbcopy < ~/.ssh/id_rsa.pub
+   ssh key will be copied to your clipboard.
+
+
+-------------------------------Change remote url of repository------------------------------------------------------
+
+git remote set-url origin <NEW_GIT_URL_HERE>
+
+-------------------------------Basic Git Commands------------------------------------------------------
+
+git clone https/ssh :create local repo with the help
+of https or ssh url of remote repo.
+
+
+git clone:
+   To clone remote repo to system(creating local repo)
+Syntax:git clone ssh/https url
+(1 time process)
+
+Note:While using below commands plz open git bash
+in the local repo only.
+git pull:
+   Get updates from remote repo to local repo.
+git status:
+    to check the status of local repo.
+
+git config --global user.email "you@example.com"
+git config --global user.email "darshanclassic8@gmail.com"
+
+git config --global user.name "Your Name"
+git config --global user.name "CodePhoenix08"
+
+Note:If u wanna add file or any updation to remote
+repo from local repo below three cmds are compuslory
+
+git add file_name or git add -A
+       This command is used add file to the path.
+git commit -m"message"
+    This command is used to save the file in the path.
+giit.. push..
+   This command is used to push the files into remote
+repo which are present in the path.
+
+-----------------------------Branch create and change branch------------------------------------------
+git branch <branchname>
+      ->creates new branch 
+git checkout branchname
+      ->switch the branch  
+git remote add origin (Your git ssh or http url)
+      - set remote origin for that branch
+
+-----------------------------Git Revert Changes------------------------------------------
+1) git checkout -b new-branch-name
+2) git revert <commit-hashCode>
+(Eg:-  git revert abc1234)
+3) git push origin new-branch-name
+
+This will revert only those changes in that paticular hashcode
+
